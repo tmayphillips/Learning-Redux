@@ -46,7 +46,8 @@ store.dispatch({
 })
 
 store.dispatch({
-  type: 'IS_AUTH',value: true // value can be called anything, can pass another object if I want
+  type: 'IS_AUTH',
+  value: true // value can be called anything, can pass another object if I want
 })
 
 store.dispatch({
